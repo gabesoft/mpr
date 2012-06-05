@@ -4,7 +4,14 @@
   , "description": "A simple CLI tool for running multiple processes"
   , "version": "0.0.1"
   , "author": "Gabriel Adomnicai <gabesoft@gmail.com>"
-  , "private": true // TODO: remove
+  , "private": true
+  , "keywords" : [
+        "cli"
+      , "sysadmin"
+      , "tools"
+      , "process"
+      , "development"
+    ]
   , "repository": {
         "type": "git"
       , "url": "https://github.com/gabesoft/mpr.git"
@@ -15,6 +22,10 @@
   , "devDependencies": {
         "cli-easy": "0.1.0"
       , "mocha": "*"
+    }
+  , "main": "./lib/index.js"
+  , "bin": {
+
     }
   , "scripts": {
         "start": "node app.js"

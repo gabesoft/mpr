@@ -1,0 +1,6 @@
+NERD_tree_*
+node_modules
+.stat-test
+.DS_Store
+*.log
+tmp
