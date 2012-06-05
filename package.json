@@ -4,24 +4,25 @@
   , "description": "A simple CLI tool for running multiple processes"
   , "version": "0.0.1"
   , "author": "Gabriel Adomnicai <gabesoft@gmail.com>"
-  , "private": true
   , "keywords" : [
         "cli"
       , "sysadmin"
       , "tools"
       , "process"
       , "development"
+      , "spawn"
     ]
   , "repository": {
         "type": "git"
       , "url": "https://github.com/gabesoft/mpr.git"
     }
   , "dependencies": {
-        "flatiron": "0.2.0"
+        "flatiron": "0.2.x"
+      , "colors" : "0.6.x"
     }
   , "devDependencies": {
         "cli-easy": "0.1.0"
-      , "mocha": "*"
+      , "mocha": "1.1.x"
     }
   , "main": "./lib/index.js"
   , "bin": {
@@ -29,5 +30,8 @@
     }
   , "scripts": {
         "start": "node app.js"
+    }
+  , "engines": {
+        "node": ">= 0.6.17"
     }
 }
