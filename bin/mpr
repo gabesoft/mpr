@@ -1,0 +1,5 @@
+#!/usr/bin/env node
+
+var mpr = require('../lib/mpr');
+
+mpr.start();
