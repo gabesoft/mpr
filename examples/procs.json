@@ -1,5 +1,23 @@
 {
-    "redis-server": "redis-server"
-  , "vogue": "vogue"
-  , "stylus": "stylus"
+    "redis-server": {
+        "name": "redis-server"
+      , "color": "cyan"
+    }
+  , "vogue": {
+        "name": "vogue"
+      , "color": "magenta"
+      , "args": {
+            "--port": "8001"
+          , "../pub": null
+        }
+    }
+  , "stylus": {
+        "name": "stylus"
+      , "color": "yellow"
+      , "args": {
+            "--use": "nib"
+          , "--compress": null
+          , "--watch": "../stylesheets"
+        }
+    }
 }
