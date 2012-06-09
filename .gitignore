@@ -3,4 +3,5 @@ node_modules
 .stat-test
 .DS_Store
 *.log
+*.rdb
 tmp
