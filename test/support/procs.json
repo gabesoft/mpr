@@ -7,18 +7,19 @@
         "command": "vogue"
       , "color": "magenta"
       , "args": [
-            "--port"
-          , "8001"
+            "--port 8001"
           , "../blogmon/pub"
         ]
     }
   , "stylus": {
-        "command": "stylus"
+        "command": "/apps/blogmon/node_modules/stylus/bin/stylus"
       , "color": "yellow"
+      , "cwd": "/apps/blogmon"
       , "args": [
             "--use nib"
           , "--compress"
-          , "--watch ../stylesheets"
+          , "--watch /apps/blogmon/pub/stylesheets"
+          , "--out /apps/blogmon/pub/css"
         ]
     }
   , "server": {
@@ -28,14 +29,11 @@
             "NODE_ENV": "development"
           , "PORT": "3002"
         }
-      , "cwd": "../blogmon"
+      , "cwd": "/apps/blogmon"
       , "args": [
-            "--debug"
-          , "../blogmon/server.js"
-          , "--watch"
-          , "../blogmon/lib"
-          , "--watch"
-          , "../blogmon/pub"
+            "--debug /apps/blogmon/server.js"
+          , "--watch /apps/blogmon/lib"
+          , "--watch /apps/blogmon/pub"
         ]
     }
 }
