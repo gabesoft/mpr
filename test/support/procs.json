@@ -12,7 +12,7 @@
         ]
     }
   , "stylus": {
-        "command": "/apps/blogmon/node_modules/stylus/bin/stylus"
+        "command": "stylus"
       , "color": "yellow"
       , "cwd": "/apps/blogmon"
       , "args": [
