@@ -1,0 +1,45 @@
+{
+    "redis": {
+        "command": "redis-server"
+      , "color": "cyan"
+    }
+  , "vogue": {
+        // this is the command
+        "command": "vogue"
+      , "color": "magenta"
+      , "args": [
+            "--port 8001"
+          , "../blogmon/pub"
+        ]
+    }
+  , "stylus": {
+        "command": "stylus"
+      , "color": "yellow"
+      , "cwd": "/apps/blogmon"
+
+      , "args": [
+            "--use nib"
+          , "--compress"
+          , "--watch /apps/blogmon/pub/stylesheets"
+          , "--out /apps/blogmon/pub/css"
+        ]
+    }
+
+    // node server
+  , "server": {
+        "command": "nodemon"
+      , "color": "blue"
+        // env values get added to the existing
+        // environment values
+      , "env": {
+            "NODE_ENV": "development"
+          , "PORT": "3002"
+        }
+      , "cwd": "/apps/blogmon"
+      , "args": [
+            "--debug /apps/blogmon/server.js"
+          , "--watch /apps/blogmon/lib"
+          , "--watch /apps/blogmon/pub"
+        ]
+    }
+}
