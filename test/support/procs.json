@@ -1,11 +1,11 @@
 {
     "redis": {
         "command": "redis-server"
-      , "color": "cyan"
+      , "color": ""
     }
   , "vogue": {
         "command": "vogue"
-      , "color": "magenta"
+      , "color": "blue"
       , "args": [
             "--port 8001"
           , "../blogmon/pub"
@@ -24,7 +24,7 @@
     }
   , "server": {
         "command": "nodemon"
-      , "color": "blue"
+      , "color": "magenta"
       , "env": {
             "NODE_ENV": "development"
           , "PORT": "3002"
