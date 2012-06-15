@@ -1,18 +1,18 @@
 {
     "redis": {
         "command": "redis-server"
-      , "color": ""
+      , "color": "grey"
     }
   , "vogue": {
         "command": "vogue"
-      , "color": "blue"
+      , "color": "magenta"
       , "args": [
             "--port 8001"
           , "../blogmon/pub"
         ]
     }
   , "stylus": {
-        "command": "stylus"
+        "command": "/apps/blogmon/node_modules/stylus/bin/stylus"
       , "color": "yellow"
       , "cwd": "/apps/blogmon"
       , "args": [
@@ -24,7 +24,7 @@
     }
   , "server": {
         "command": "nodemon"
-      , "color": "magenta"
+      , "color": "blue"
       , "env": {
             "NODE_ENV": "development"
           , "PORT": "3002"
