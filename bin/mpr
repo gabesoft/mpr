@@ -15,8 +15,4 @@ mpr.start(function(err) {
     process.on('drain', function() {
         process.exit(err ? 1 : 0);
     });
-
-    process.on('uncaughtException', function(err) {
-        console.log('UNCAUGHT EXCEPTION:'.red.inverse, err);
-    });
 });
