@@ -14,12 +14,16 @@ be used when interacting with the server instance).
 
 Here's an example of listing the processes:
 
-<img src="https://github.com/gabesoft/mpr/raw/master/assets/help.png" />
+<img src="https://github.com/gabesoft/mpr/raw/master/assets/list_procs.png" />
+
+And an example of the processes output:
+
+<img src="https://github.com/gabesoft/mpr/raw/master/assets/procs_output.png" />
 
 ## Requirements
 
 - NPM (http://npmjs.org/)
-- Node.js 0.6 (http:nodejs.org/)
+- Node.js 0.6 (http://nodejs.org/)
 
 ## Install
 
