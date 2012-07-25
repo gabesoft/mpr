@@ -2,7 +2,7 @@
     "name": "mpr"
   , "preferGlobal": true
   , "description": "A simple CLI tool for running multiple processes"
-  , "version": "0.1.1"
+  , "version": "0.1.2"
   , "author": "Gabriel Adomnicai <gabesoft@gmail.com>"
   , "keywords" : [
         "cli"
@@ -17,7 +17,7 @@
       , "url": "https://github.com/gabesoft/mpr.git"
     }
   , "dependencies": {
-        "flatiron": "0.2.x"
+        "flatiron": "0.2.5"
       , "colors": "0.6.x"
       , "winston": "0.6.x"
       , "underscore": "1.3.3"
@@ -28,7 +28,7 @@
     }
   , "devDependencies": {
         "cli-easy": "0.1.0"
-      , "mocha": "1.1.x"
+      , "mocha": "*"
       , "should": "0.6.x"
     }
   , "main": "./lib/mpr.js"
@@ -39,6 +39,6 @@
         "start": "node app.js"
     }
   , "engines": {
-        "node": ">= 0.6.17"
+        "node": ">= 0.8.2"
     }
 }
