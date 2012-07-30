@@ -15,6 +15,7 @@
         "command": "/apps/blogmon/node_modules/stylus/bin/stylus"
       , "color": "yellow"
       , "cwd": "/apps/blogmon"
+      , "killSignal": "SIGKILL"
       , "args": [
             "--use nib"
           , "--compress"
