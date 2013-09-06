@@ -5,13 +5,13 @@
 
 ## Description
 
-Runs multiple processes specified in a json file.
+Runs multiple processes specified in a [json](https://github.com/gabesoft/mpr/blob/master/test/support/procs.json) file.
 When the server instance is running another instance of mpr can be used 
 to interact with the first and start/stop/restart processes as well as turn on/off
 the output of some or all processes.
 Multiple clusters of processes can be run by specifying a port (the same port must 
 be used when interacting with the server instance).
-For an example of a [json](https://github.com/gabesoft/mpr/blob/master/test/support/procs.json) file see test/support/procs.json
+For an example of a json file see test/support/procs.json
 
 Here's an example of listing the processes:
 
