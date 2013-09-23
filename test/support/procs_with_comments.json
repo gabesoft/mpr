@@ -15,7 +15,7 @@
         // environment values (will override existing values)
       , "env": {
             "NODE_ENV": "development"
-            "NODE_PATH": "/usr/bin/node"
+          , "NODE_PATH": "/usr/bin/node"
         }
         // current working directory to set when starting the command
       , "cwd": "/work/myproject"
