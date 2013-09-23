@@ -1,3 +1,7 @@
+0.1.7
+-----
+Dependencies upgrade + minor cleanup
+
 0.1.6
 -----
 Added support for relative process paths
