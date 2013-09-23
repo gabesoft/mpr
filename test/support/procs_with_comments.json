@@ -1,45 +1,23 @@
 {
-    "redis": {
-        "command": "redis-server"
-      , "color": "cyan"
-    }
-  , "vogue": {
-        // this is the command
-        "command": "vogue"
-      , "color": "magenta"
-      , "args": [
-            "--port 8001"
-          , "../blogmon/pub"
-        ]
-    }
-  , "stylus": {
-        "command": "stylus"
-      , "color": "yellow"
-      , "cwd": "/apps/blogmon"
-
-      , "args": [
-            "--use nib"
-          , "--compress"
-          , "--watch /apps/blogmon/pub/stylesheets"
-          , "--out /apps/blogmon/pub/css"
-        ]
-    }
-
-    // node server
-  , "server": {
-        "command": "nodemon"
+    // process label
+    "server": {
+        // command to execute
+        "command": "./node_modules/node-dev/bin/node-dev"
+        // set to true for commands specified with relative path
+      , "resolvePath": true
+        // output color label (blue, green, cyan, brown, magenta, yellow, grey)
       , "color": "blue"
-        // env values get added to the existing
-        // environment values
+        // command arguments
+      , "args": [
+            "lib/server.js"
+          , "--port 8001"
+        ]
+        // environment values (will override existing values)
       , "env": {
             "NODE_ENV": "development"
-          , "PORT": "3002"
+            "NODE_PATH": "/usr/bin/node"
         }
-      , "cwd": "/apps/blogmon"
-      , "args": [
-            "--debug /apps/blogmon/server.js"
-          , "--watch /apps/blogmon/lib"
-          , "--watch /apps/blogmon/pub"
-        ]
+        // current working directory to set when starting the command
+      , "cwd": "/work/myproject"
     }
 }
