@@ -5,7 +5,7 @@
 
 ## Description
 
-Runs multiple processes specified in a [json](https://github.com/gabesoft/mpr/blob/master/test/support/procs.json) file.
+Runs multiple processes specified in a [json](https://github.com/gabesoft/mpr/blob/master/test/support/procs_with_comments.json) file.
 When the server instance is running another instance of mpr can be used 
 to interact with the first and start/stop/restart processes as well as turn on/off
 the output of some or all processes.
