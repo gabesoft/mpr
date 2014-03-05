@@ -23,8 +23,7 @@
     "eventemitter2": "~0.4.13",
     "underscore.string": "~2.3.3",
     "underscore": "~1.5.2",
-    "posix": "~1.0.3",
-    "async": "~0.2.10"
+    "posix": "~1.0.3"
   },
   "devDependencies": {
     "cli-easy": "0.1.0",
