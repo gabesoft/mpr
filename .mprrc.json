@@ -1,0 +1,4 @@
+{
+  "ulimit": 10000,
+  "maxListeners": 100
+}

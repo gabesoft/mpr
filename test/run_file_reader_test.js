@@ -9,7 +9,7 @@ describe('run file', function() {
     beforeEach(function() {
         sut = new Reader();
     });
-    
+
     it('should read all processes from run file', function(done) {
         var procs = sut.read(__dirname + '/support/procs.json');
         Object.keys(procs).length.should.equal(4);
