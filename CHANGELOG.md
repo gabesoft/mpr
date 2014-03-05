@@ -1,3 +1,7 @@
+0.1.9
+-----
+Added config for ulimit and maxListeners
+
 0.1.8
 -----
 Minor fixes
