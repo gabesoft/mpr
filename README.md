@@ -20,6 +20,10 @@ And an example of the processes output:
 
 <img src="https://github.com/gabesoft/mpr/raw/master/assets/procs_output.png" />
 
+Type help in the same window where the processes are running to see the available commands:
+
+<img src="https://github.com/gabesoft/mpr/raw/master/assets/help_inline.png" />
+
 ## Requirements
 
 - NPM (http://npmjs.org/)
