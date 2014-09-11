@@ -1,3 +1,7 @@
+0.1.10
+-----
+Allow commands from the same window
+
 0.1.9
 -----
 Added config for ulimit and maxListeners
