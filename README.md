@@ -6,7 +6,7 @@
 ## Description
 
 Runs multiple processes specified in a [json](https://github.com/gabesoft/mpr/blob/master/test/support/procs_with_comments.json) file.
-After some processes have been started they any of them can be started/stopped/restarted 
+After some processes have been started any of them can be started/stopped/restarted 
 from the same window where they are running or by running another mpr instance. 
 Multiple clusters of processes can be run by specifying a port (the same port must 
 be used when interacting with the server instance).
