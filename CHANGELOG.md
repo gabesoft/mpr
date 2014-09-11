@@ -1,3 +1,7 @@
+0.1.11
+-----
+Allow commands from the same window + README
+
 0.1.10
 -----
 Allow commands from the same window
