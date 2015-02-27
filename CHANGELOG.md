@@ -1,3 +1,7 @@
+0.1.12
+-----
+Dependency version update
+
 0.1.11
 -----
 Allow commands from the same window + README
