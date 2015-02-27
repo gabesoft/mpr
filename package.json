@@ -19,11 +19,11 @@
   "dependencies": {
     "flatiron": "~0.3.8",
     "colors": "~0.6.2",
-    "hook.io": "git+https://github.com/gabesoft/hook.io.git#v0.8.14",
+    "hook.io": "git+https://github.com/gabesoft/hook.io.git#v0.8.15",
     "eventemitter2": "~0.4.13",
     "underscore.string": "~2.3.3",
     "underscore": "~1.5.2",
-    "posix": "~1.0.3"
+    "posix": "~2.0.0"
   },
   "devDependencies": {
     "cli-easy": "0.1.0",
