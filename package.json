@@ -2,7 +2,7 @@
   "name": "mpr",
   "preferGlobal": true,
   "description": "A simple CLI tool for running multiple processes",
-  "version": "0.1.14",
+  "version": "0.1.15",
   "author": "Gabriel Adomnicai <gabesoft@gmail.com>",
   "keywords": [
     "cli",
