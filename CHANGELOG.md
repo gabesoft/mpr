@@ -1,3 +1,7 @@
+0.1.16
+-----
+Removed end marker from server output
+
 0.1.15
 -----
 Hook.io update
