@@ -10,6 +10,9 @@
        ░               ░     
 ```
 
+[![Latest Stable Version](https://img.shields.io/npm/v/mpr.svg?style=flat-square)](https://www.npmjs.com/package/mpr)
+[![NPM Downloads](https://img.shields.io/npm/dm/mpr.svg?style=flat-square)](https://www.npmjs.com/package/mpr)
+
 # Multi Process Runner
 *A simple CLI tool for running multiple processes*
 

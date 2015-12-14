@@ -19,8 +19,8 @@ tag:
 tag-push: tag
 	@git push --tags origin HEAD:master
 
-test: build
-	@NODE_ENV=test $(MOCHA) -R spec test/*.coffee --grep @slow --invert
+test:
+	@NODE_ENV=test ./bin/mocha.sh
 
 test-slow: build
 	@NODE_ENV=test $(MOCHA) -R spec test/*.coffee --grep @slow --timeout 10000
