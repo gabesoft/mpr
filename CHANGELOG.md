@@ -1,3 +1,7 @@
+0.1.18
+-----
+Client log fix
+
 0.1.17
 -----
 Replaced colors with chalk + dependency update
