@@ -18,7 +18,7 @@ describe('run file', function() {
 
     it('should read json files with comments', function(done) {
         var procs = sut.read(__dirname + '/support/procs_with_comments.json');
-        Object.keys(procs).length.should.equal(4);
+        Object.keys(procs).length.should.equal(1);
         done();
     });
 });

@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 
-var mpr    = require('../lib/mpr')
-  , colors = require('colors');
+var mpr = require('../lib/mpr');
 
 mpr.start(function(err) {
     function onexit(code, status) {

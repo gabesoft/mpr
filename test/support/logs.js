@@ -1,7 +1,7 @@
 {
     "bouncy": {
         "command": "tail"
-      , "color": "grey"
+      , "color": "gray"
       , "args": [
             "-f"
           , "/var/www/logs/bouncy.log"

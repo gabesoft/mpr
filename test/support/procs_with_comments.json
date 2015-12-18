@@ -5,7 +5,7 @@
         "command": "./node_modules/node-dev/bin/node-dev"
         // set to true for commands specified with relative path
       , "resolvePath": true
-        // output color label (blue, green, cyan, brown, magenta, yellow, grey)
+        // output color label (blue, green, cyan, brown, magenta, yellow, gray)
       , "color": "blue"
         // command arguments
       , "args": [

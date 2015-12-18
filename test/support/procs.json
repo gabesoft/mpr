@@ -10,7 +10,7 @@
     }
   , "redis": {
         "command": "redis-server"
-      , "color": "grey"
+      , "color": "gray"
     }
   , "stylus": {
         "command": "/apps/blogmon/node_modules/stylus/bin/stylus"
