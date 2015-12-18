@@ -1,3 +1,7 @@
+0.1.17
+-----
+Replaced colors with chalk + dependency update
+
 0.1.16
 -----
 Removed end marker from server output
