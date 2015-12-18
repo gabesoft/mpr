@@ -1,3 +1,7 @@
+0.1.19
+-----
+Log fixes
+
 0.1.18
 -----
 Client log fix
